@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+/* 滚动条样式 */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #d1d5db;
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #9ca3af;
+}
+
+/* 代码块滚动条 */
+pre::-webkit-scrollbar-thumb {
+  background: #c7d2fe;
+}
+
+pre::-webkit-scrollbar-thumb:hover {
+  background: #a5b4fc;
+}

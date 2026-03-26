@@ -1,5 +1,10 @@
 {
   "nodeFunctionsConfig": {
-    "maxDuration": 13
+    "maxDuration": 10
+  },
+  "cloudFunctions": {
+    "nodejs": {
+      "maxDuration": 16
+    }
   }
 }
